@@ -1,0 +1,18 @@
+list4 = [5, 3, 6, 1]
+largest = float('-inf')
+
+
+for i in range(0, len(list4)):
+    if list4[i] > largest:
+        largest = list4[i]
+    
+    
+print("The largest number is", largest)
+sec_largest = float('-inf')
+
+for i in range(0, len(list4)):
+    if list4[i] > sec_largest and list4[i] != largest:
+        sec_largest = list4[i]
+    
+print("The second largest number", sec_largest)
+
