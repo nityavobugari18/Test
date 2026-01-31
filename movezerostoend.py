@@ -13,3 +13,4 @@ for i in range(0, len(l)):
         l.remove(0)
 
 print(l)
+
